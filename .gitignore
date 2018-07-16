@@ -55,6 +55,15 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+/static
+/media
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
 # Flask stuff:
 instance/
