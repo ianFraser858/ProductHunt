@@ -1,5 +1,5 @@
-"""ProductHunt URL Configuration
 
+"""portfolio_project URL Configuration
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
 Examples:
@@ -13,12 +13,12 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
-from django.urls import path, include
-from products import views
+
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', views.home, name='home'),
-    path('accounts/', include('accounts.urls')),
+    path('login', views.login, name='login'),
+    path('register', views.register, name='register'),
+    path('logout', views.logout, name='logout'),
 ]
