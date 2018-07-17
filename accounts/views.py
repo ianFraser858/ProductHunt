@@ -5,7 +5,15 @@ from django.contrib import auth
 
 
 def login(request):
-    return render(request, 'accounts/login.html')
+    if request.method == 'POST':
+        user = auth.authenticate(username=request.POST['username'], password=request.POST['password'])
+        if user is not None:
+            auth.login(request, user)
+            return redirect('home')
+        else:
+            return render(request, 'accounts/login.html', {'error': 'Username or password is incorrect'})
+    else:
+        return render(request, 'accounts/login.html')
 
 
 def register(request):
@@ -25,5 +33,6 @@ def register(request):
 
 
 def logout(request):
-    # TODO: need to route to home page
-    return render(request, 'accounts/register.html')
+    if request.method == 'POST':
+        auth.logout(request)
+        return redirect('home')
