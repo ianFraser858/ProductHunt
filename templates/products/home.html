@@ -12,7 +12,7 @@
                  <p>{{ product.summary }}</p>
             </div>
             <div class="col-md-4">
-                <a href="javascript:{document.getElementById('upvote{{ product.id }}').submit()}"><button class="btn btn-primary btn-lg btn-block"><i class="fas fa-caret-up"></i> Upvotes {{ product.vote_total }}</button></a>
+                <a class="btn btn-primary btn-lg btn-block" href="javascript:{document.getElementById('upvote{{ product.id }}').submit()}"><i class="fas fa-caret-up"></i> Upvotes {{ product.vote_total }}</a>
             </div>
         </div>
 
