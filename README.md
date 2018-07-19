@@ -2,8 +2,9 @@
 
  Created to explore Django 2 functionality.
  
- Features athentication
- Multi user created models
+ Features:
+ * built in authentication using Django2
+ * Multi user created models
  
  TODO:
  
