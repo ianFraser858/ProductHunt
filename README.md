@@ -1,4 +1,4 @@
-# ProductHunt
+# Product Hunt Clone
 
  Created to explore Django 2 functionality.
  
