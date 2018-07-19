@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% block title %}Product Hunt{% endblock %}
 {% block content %}
-
     {% for product in products.all %}
         <div class="row pt-4">
             <div class="col-md-2" onclick="window.location='{%  url 'detail' product.id %}';" style="cursor: pointer">

@@ -8,7 +8,8 @@
  
  TODO:
  
- * Better styling
- * Add styling to flash messages
+ * Better styling on home page
+ * Add more flash messages
  * Clean up authentication checking in views.py
  * Add more robust error handling
+ * Add back button?
