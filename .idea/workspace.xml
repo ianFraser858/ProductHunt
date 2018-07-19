@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40ff91c3-67ec-493e-add0-868a7ea67d8d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/products/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="40ff91c3-67ec-493e-add0-868a7ea67d8d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -252,13 +259,13 @@
     <layout>
       <window_info anchor="right" id="TODO" order="3" weight="0.32864583" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.390625" side_tool="true" weight="0.40339702" />
-      <window_info active="true" anchor="bottom" id="manage.py@ProductHunt" order="12" visible="true" weight="0.35453597" />
+      <window_info anchor="bottom" id="manage.py@ProductHunt" order="12" visible="true" weight="0.35453597" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.609375" weight="0.21816169" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.32908705" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32890365" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.50292397" visible="true" weight="0.053304903" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.50292397" visible="true" weight="0.17750533" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="5" />
@@ -350,13 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
@@ -483,6 +483,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
